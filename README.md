@@ -53,3 +53,30 @@ C:\flutter\bin\flutter.bat run --dart-define=API_BASE_URL=https://YOUR-RENDER-UR
 cd C:\Users\pc\Desktop\ps-project\NBExpenseManager\mobile-app
 C:\flutter\bin\flutter.bat build apk --release --dart-define=API_BASE_URL=https://YOUR-RENDER-URL.onrender.com/api
 ```
+
+## Vercel Deployment
+
+For personal use, this backend can also run on Vercel.
+
+### What is prepared
+- Vercel config: [backend-api/vercel.json](C:/Users/pc/Desktop/ps-project/NBExpenseManager/backend-api/vercel.json)
+- Serverless entrypoint: [backend-api/api/index.js](C:/Users/pc/Desktop/ps-project/NBExpenseManager/backend-api/api/index.js)
+- Reusable MongoDB connection caching for serverless functions
+
+### Vercel project settings
+- Framework preset: `Other`
+- Root directory: `backend-api`
+- Build command: leave default or `npm install`
+- Output directory: leave empty
+
+### Vercel environment variables
+- `MONGO_URI`
+- `FIREBASE_PROJECT_ID`
+- `FIREBASE_CLIENT_EMAIL`
+- `FIREBASE_PRIVATE_KEY`
+
+### Flutter run against Vercel
+```powershell
+cd C:\Users\pc\Desktop\ps-project\NBExpenseManager\mobile-app
+C:\flutter\bin\flutter.bat run --dart-define=API_BASE_URL=https://YOUR-VERCEL-DOMAIN.vercel.app/api
+```
