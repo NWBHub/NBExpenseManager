@@ -1,0 +1,22 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" rx="240" fill="url(#bg)"/>
+  <rect x="120" y="120" width="784" height="784" rx="180" fill="url(#panel)" fill-opacity="0.18"/>
+  <path d="M278 734V290H356L512 552V290H590V734H514L356 468V734H278Z" fill="white"/>
+  <path d="M650 292C739 292 804 345 804 419C804 472 772 513 719 531C781 547 822 592 822 659C822 743 753 802 646 802H486V292H650ZM634 491C687 491 722 464 722 423C722 383 691 358 641 358H566V491H634ZM646 736C705 736 741 707 741 662C741 616 703 587 639 587H566V736H646Z" fill="white"/>
+  <path d="M692 238L738 284L622 400L576 354L692 238Z" fill="#F7C65C"/>
+  <path d="M302 818H722" stroke="#F7C65C" stroke-width="30" stroke-linecap="round"/>
+  <rect x="330" y="768" width="54" height="86" rx="20" fill="#F7C65C"/>
+  <rect x="420" y="722" width="54" height="132" rx="20" fill="#F7C65C"/>
+  <rect x="510" y="676" width="54" height="178" rx="20" fill="#F7C65C"/>
+  <rect x="600" y="620" width="54" height="234" rx="20" fill="#F7C65C"/>
+  <defs>
+    <linearGradient id="bg" x1="124" y1="92" x2="905" y2="932" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14235F"/>
+      <stop offset="1" stop-color="#566DF7"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="180" y1="178" x2="802" y2="852" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset="1" stop-color="#D9E0FF"/>
+    </linearGradient>
+  </defs>
+</svg>

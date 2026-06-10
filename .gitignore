@@ -1,0 +1,24 @@
+.env
+.env.*
+!**/.env.example
+*firebase-adminsdk*.json
+
+# Node / backend
+backend-api/node_modules/
+backend-api/npm-debug.log*
+backend-api/.env
+
+# Flutter / Dart
+mobile-app/.dart_tool/
+mobile-app/.flutter-plugins
+mobile-app/.flutter-plugins-dependencies
+mobile-app/.packages
+mobile-app/build/
+mobile-app/.pub-cache/
+mobile-app/.metadata
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
